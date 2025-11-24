@@ -10,9 +10,7 @@
 
 <body>
 
-    <!-- Header Section -->
     <header class="header">
-        <!-- Top Navigation Bar -->
         <div class="parent-nav">
             <div class="navbar">
                 <div class="nav-left">
@@ -29,37 +27,21 @@
                         <a href="#">Contact</a>
                     </nav>
 
-
                     <div class="hamburger">
                         <img src="/assets/svgs/toggle.svg" alt="Search Icon" class="icon">
                     </div>
                 </div>
 
-                <!-- <nav class="navbar">
-                <div class="nav-left">
-                    <div class="logo">
-                        <img src="/assets/svgs/Frame 3.svg" alt="Logo">
-                    </div>
-                </div>
-
-                <div class="toggle-icon">
-                    <img src="/assets/svgs/toggle.svg" alt="Toggle Menu">
-                </div>
-
-                <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">Shop</a>
-                    <a href="#">Contact</a>
-                </div>
-            </nav> -->
-
-
                 <div class="nav-right">
                     <div class="search-bar">
-                        <input type="text" placeholder="Search here">
-                        <button class="search-btn">
-                            <img src="/assets/svgs/search-icon.svg" alt="Search Icon" class="icon">
-                        </button>
+                        <div class="search-input">
+                            <input type="text" placeholder="Search here">
+                        </div>
+                        <div class="search-button">
+                            <button class="search-btn">
+                                <img src="/assets/svgs/search-icon.svg" alt="Search Icon" class="icon">
+                            </button>
+                        </div>
                     </div>
 
                     <div class="cart-icon">
@@ -67,12 +49,9 @@
                     </div>
 
                 </div>
-
-
             </div>
         </div>
 
-        <!-- Feature Bar -->
         <div class="feature-bar">
             <div class="feature-container">
                 <div class="feature">
@@ -99,31 +78,31 @@
 
     </header>
 
-    <!-- Hero Section -->
-
     <section class="hero">
         <div class="hero-inner">
             <div class="hero-left">
-                <img src="/assets/svgs/duck.svg" alt="duck icon" class="hero-duck-icon">
+                <div class="duck-icon">
+                    <img src="/assets/svgs/duck.svg" alt="duck icon" class="hero-duck-icon">
+                </div>
 
                 <div class="hero-header">
                     <h1 class="hero-title">
                         <span class="title-span">Dive into fun</span> with unforgettable pool floats
-                        <img src="/assets/svgs/triad.svg" alt="triad icon" class="hero-triad-icon">
+                        <div class="tri-icon">
+                            <img src="/assets/svgs/triad.svg" alt="triad icon" class="hero-triad-icon">
+                        </div>
                     </h1>
 
-                    <!-- <p class="hero-sub">
-                        Discover unique and stylish pool floats for endless relaxation and memorable moments.
-                    </p> -->
-                    <p class="hero-sub">
-                        Discover unique and stylish pool floats for endless relaxation and memorable moments.
-                    </p>
-
+                    <div class="hero-subtitle">
+                        <p class="hero-sub">
+                            Discover unique and stylish pool floats for endless relaxation and memorable moments.
+                        </p>
+                    </div>
                 </div>
+
                 <div class="hero-btn">
                     <button class="hero-button">Shop Now</button>
                 </div>
-
             </div>
 
             <div class="hero-right">
@@ -140,149 +119,137 @@
         </div>
     </section>
 
-    <!-- Featured Products Section -->
-    <section class="featured-products">
-        <div class="container">
+    <section class="products-section-container">
+        <div class="products-child-container">
 
-            <!-- Header Text -->
-            <div class="section-header">
-                    <h4 class="featured-title">Featured products</h4>
-                    <h2 class="main-title">Check out these fantastic products</h2>
+            <div class="products-header">
+                <h4 class="products-header-title">Featured products</h4>
+                <h2 class="products-header-main-title">Check out these fantastic products</h2>
             </div>
 
-            <!-- Filter Buttons -->
-            <div class="tabs">
-                <button class="tab active">Featured</button>
-                <button class="tab">New Arrivals</button>
-                <button class="tab">Sale</button>
+            <div class="products-tabs">
+                <button class="products-tabs-button active">Featured</button>
+                <button class="products-tabs-button">New Arrivals</button>
+                <button class="products-tabs-button">Sale</button>
             </div>
 
-            <!-- Product Grid -->
-            <div class="product-grid">
+            <div class="products-grid">
 
-                <!-- Product 1 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-1.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Floating Cabana Bar & Golf Cart</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Floating Cabana Bar & Golf Cart</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 2 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-2.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Swan Pool Float-3 Pack</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Swan Pool Float-3 Pack</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 3 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-3.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Floating Cabana Bar & Golf Cart</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Floating Cabana Bar & Golf Cart</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 4 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-4.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Giant Cabana Dayclub</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Giant Cabana Dayclub</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 5 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-5.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Floating Cabana Bar & Golf Cart</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Floating Cabana Bar & Golf Cart</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 6 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-6.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Inflatable Rainbow Daybed Pool Raft & Float</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Inflatable Rainbow Daybed Pool Raft & Float</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 7 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-7.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Pool Float Lounger Collection Bundle</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Pool Float Lounger Collection Bundle</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 8 -->
-                <div class="product-card">
-                    <div class="product-image">
+                <div class="products-card">
+                    <div class="products-card-image">
                         <img src="/assets/images/card-8.png" alt="Product">
                     </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Floating Cabana Bar & Golf Cart</h3>
-                        <div class="product-info-bottom">
-                            <p class="product-price">$99.00</p>
-                            <div class="stars">
-                                <img src="./assets/svgs/rating.svg" width="89.63px" height="16" />
+                    <div class="products-card-info">
+                        <h3 class="products-card-name">Floating Cabana Bar & Golf Cart</h3>
+                        <div class="products-card-info-bottom">
+                            <p class="products-card-price">$99.00</p>
+                            <div class="products-card-stars">
+                                <img src="/assets/svgs/rating.svg" />
                             </div>
                         </div>
                     </div>
@@ -292,22 +259,20 @@
         </div>
     </section>
 
+    <section class="promo-section-container">
+        <div class="promo-child-container">
 
-
-    <section class="pool-floats-section">
-        <div class="promo-container">
-
-            <p class="tagline">All in one.Expedient place</p>
-            <h3 class="section-title">Find an extensive selection of pool floats</h3>
+            <p class="promo-tagline">All in one.Expedient place</p>
+            <h3 class="promo-title">Find an extensive selection of pool floats</h3>
 
             <div class="promo-grid">
 
-                <div class="promo-card promo-large">
-                    <div class="promo-inner">
+                <div class="promo-card promo-card-large">
+                    <div class="promo-card-inner">
                         <div class="promo-content">
-                            <h4>Shop beaches</h4>
-                            <p>Grab our top collection of beach items</p>
-                            <button class="shop-btn">Shop Now</button>
+                            <h4 class="promo-content-heading">Shop beaches</h4>
+                            <p class="promo-content-desc">Grab our top collection of beach items</p>
+                            <button class="promo-btn">Shop Now</button>
                         </div>
                         <div class="promo-image">
                             <img src="/assets/images/image2x.png" alt="Beach">
@@ -315,11 +280,11 @@
                     </div>
                 </div>
 
-                <div class="promo-card promo-small green">
-                    <div class="promo-inner">
+                <div class="promo-card promo-card-small promo-green">
+                    <div class="promo-card-inner">
                         <div class="promo-content-small">
-                            <h4>Parties you love to enjoy</h4>
-                            <p>Keep it chilled</p>
+                            <h4 class="promo-content-small-heading">Parties you love to enjoy</h4>
+                            <p class="promo-content-small-desc">Keep it chilled</p>
                         </div>
                         <div class="promo-image">
                             <img src="/assets/images/image2.png" alt="Pool Party">
@@ -327,11 +292,12 @@
                     </div>
                 </div>
 
-                <div class="promo-card promo-small orange">
-                    <div class="promo-inner">
+                <div class="promo-card promo-card-small promo-orange">
+                    <div class="promo-card-inner">
                         <div class="promo-content-small">
-                            <h4>Fun for kids</h4>
-                            <p>Equip your kids this summer with everything they need</p>
+                            <h4 class="promo-content-small-heading">Fun for kids</h4>
+                            <p class="promo-content-small-desc">Equip your kids this summer with everything they need
+                            </p>
                         </div>
                         <div class="promo-image">
                             <img src="/assets/images/image3.png" alt="Kids Playing">
@@ -344,62 +310,57 @@
         </div>
     </section>
 
+    <section class="features-section-container">
+        <div class="features-child-container">
 
-    <section class="features-section">
-        <div class="features-container">
-
-            <div class="features-heading">
-                <div class="features-title">
-                    <h3>
-                        Features that makes us extra-ordinary
-                    </h3>
-
-                </div>
+            <div class="features-header">
+                <h3 class="features-title">
+                    Features that makes us extra-ordinary
+                </h3>
             </div>
 
             <div class="features-grid">
-
-                <div class="feature-card">
+                <div class="features-card">
                     <div class="feature-icon">
                         <div>
-                            <img src="/assets/svgs/delivery.svg" alt="Fast Home Delivery">
+                            <img src="/assets/svgs/delivery.svg" class="features-icon1" alt="Fast Home Delivery">
                         </div>
                     </div>
-                    <div class="feature-text">
-                        <div>Fast Home Delivery</div>
+                    <div class="features-text">
+                        <div class="features-text">Fast Home Delivery</div>
                     </div>
                 </div>
 
-                <div class="feature-card">
+                <div class="features-card">
                     <div class="feature-icon">
                         <div>
-                            <img class="feature-2" src="/assets/svgs/feature2-3.svg" alt="1 Year Warantee">
+                            <img src="/assets/svgs/feature2-3.svg" class="features-icon2" alt="1 Year Warranty">
                         </div>
                     </div>
-                    <div class="feature-text">
-                        <div>1 Year Warantee</div>
+                    <div class="features-text">
+                        <div class="features-text">1 Year Warranty</div>
                     </div>
                 </div>
 
-                <div class="feature-card">
+                <div class="features-card">
                     <div class="feature-icon">
                         <div>
-                            <img class="feature-2" src="/assets/svgs/feature2-3.svg" alt="100% Authentic">
+                            <img src="/assets/svgs/feature2-3.svg" class="features-icon3" alt="100% Authentic">
                         </div>
                     </div>
-                    <div class="feature-text">
-                        <div>100% Authentic</div>
+                    <div class="features-text">
+                        <div class="features-text">100% Authentic</div>
                     </div>
                 </div>
 
-                <div class="feature-card">
+                <div class="features-card">
                     <div class="feature-icon">
                         <div>
-                            <img src="/assets/svgs/guarantee.svg" alt="Money Back Guarantee">
+                            <img src="/assets/svgs/guarantee.svg" class="features-icon4" alt="Money Back Guarantee">
                         </div>
                     </div>
-                    <div class="feature-text">
-                        <div>Money Back Guarantee</div>
+                    <div class="features-text">
+                        <div class="features-text4">Money Back Guarantee</div>
                     </div>
                 </div>
 
@@ -407,213 +368,187 @@
         </div>
     </section>
 
+    <section class="trustpilot-section-container">
+        <div class="trustpilot-child-container">
 
-    <section class="trustpilot-section">
-        <div class="trustpilot-container">
             <div class="trustpilot-header">
                 <img src="/assets/svgs/trustpilot.svg" alt="Trustpilot Logo" class="trustpilot-logo">
-                <!-- <h1 class="trustpilot-title">Trustpilot</h1> -->
-            </div>
-            <div>
-                <h2 class="reviews-heading">Our Reviews</h2>
             </div>
 
-            <div class="reviews-container">
+            <div>
+                <h2 class="trustpilot-reviews-heading">Our Reviews</h2>
+            </div>
+
+            <div class="trustpilot-reviews">
 
                 <!-- Review Card 1 -->
-                <div class="review-card">
-                    <div class="review-header">
+                <div class="trustpilot-review-card">
+                    <div class="trustpilot-review-header">
                         <div>
-                            <img src="/assets/svgs/profile-pic1.svg" alt="User photo" class="review-img">
+                            <img src="/assets/svgs/profile-pic1.svg" alt="User photo" class="trustpilot-review-img">
                         </div>
-                        <div class="review-info">
-                            <h3 class="review-name">John doe name</h3>
-                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="review-stars">
+                        <div class="trustpilot-review-info">
+                            <h3 class="trustpilot-review-name">John doe name</h3>
+                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="trustpilot-review-stars">
                         </div>
                     </div>
-                    <p class="review-text">
+                    <p class="trustpilot-review-text">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut
-                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores
-                        et ea
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea
                     </p>
                 </div>
 
                 <!-- Review Card 2 -->
-                <div class="review-card">
-                    <div class="review-header">
+                <div class="trustpilot-review-card">
+                    <div class="trustpilot-review-header">
                         <div>
-                            <img src="/assets/svgs/profile-pic2.svg" alt="User photo" class="review-img">
+                            <img src="/assets/svgs/profile-pic2.svg" alt="User photo" class="trustpilot-review-img">
                         </div>
-                        <div class="review-info">
-                            <h3 class="review-name">John doe name</h3>
-                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="review-stars">
+                        <div class="trustpilot-review-info">
+                            <h3 class="trustpilot-review-name">John doe name</h3>
+                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="trustpilot-review-stars">
                         </div>
                     </div>
-                    <p class="review-text">
+                    <p class="trustpilot-review-text">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut
-                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores
-                        et ea
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea
                     </p>
                 </div>
 
                 <!-- Review Card 3 -->
-                <div class="review-card">
-                    <div class="review-header">
+                <div class="trustpilot-review-card">
+                    <div class="trustpilot-review-header">
                         <div>
-                            <img src="/assets/svgs/profile-pic3.svg" alt="User photo" class="review-img">
+                            <img src="/assets/svgs/profile-pic3.svg" alt="User photo" class="trustpilot-review-img">
                         </div>
-                        <div class="review-info">
-                            <h3 class="review-name">John doe name</h3>
-                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="review-stars">
+                        <div class="trustpilot-review-info">
+                            <h3 class="trustpilot-review-name">John doe name</h3>
+                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="trustpilot-review-stars">
                         </div>
                     </div>
-                    <p class="review-text">
+                    <p class="trustpilot-review-text">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut
-                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores
-                        et ea
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea
                     </p>
                 </div>
-
 
                 <!-- Review Card 4 -->
-                <div class="review-card">
-                    <div class="review-header">
+                <div class="trustpilot-review-card">
+                    <div class="trustpilot-review-header">
                         <div>
-                            <img src="/assets/svgs/profile-pic3.svg" alt="User photo" class="review-img">
+                            <img src="/assets/svgs/profile-pic3.svg" alt="User photo" class="trustpilot-review-img">
                         </div>
-                        <div class="review-info">
-                            <h3 class="review-name">John doe name</h3>
-                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="review-stars">
+                        <div class="trustpilot-review-info">
+                            <h3 class="trustpilot-review-name">John doe name</h3>
+                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="trustpilot-review-stars">
                         </div>
                     </div>
-                    <p class="review-text">
+                    <p class="trustpilot-review-text">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut
-                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores
-                        et ea
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea
                     </p>
                 </div>
-
 
                 <!-- Review Card 5 -->
-                <div class="review-card">
-                    <div class="review-header">
+                <div class="trustpilot-review-card">
+                    <div class="trustpilot-review-header">
                         <div>
-                            <img src="/assets/svgs/profile-pic3.svg" alt="User photo" class="review-img">
+                            <img src="/assets/svgs/profile-pic3.svg" alt="User photo" class="trustpilot-review-img">
                         </div>
-                        <div class="review-info">
-                            <h3 class="review-name">John doe name</h3>
-                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="review-stars">
+                        <div class="trustpilot-review-info">
+                            <h3 class="trustpilot-review-name">John doe name</h3>
+                            <img src="/assets/svgs/fivestars.svg" alt="5 stars" class="trustpilot-review-stars">
                         </div>
                     </div>
-                    <p class="review-text">
+                    <p class="trustpilot-review-text">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut
-                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores
-                        et ea
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea
                     </p>
                 </div>
-
-
 
             </div>
         </div>
     </section>
 
-    <section class="pool-section">
-        <div class="pool-container">
-            <div class="pool">
+    <section class="pool-section-container">
+        <div class="pool-child-container">
+
+            <div class="pool-left">
                 <h2 class="pool-title">
                     Shop your next Inflatables<br>
                     with pool float lounger
                 </h2>
+
                 <p class="pool-desc">
                     Enjoy this summer with our vast variety of inflatables for kids girls party items and much more
                     only on pool float lounger
                 </p>
-                <button class="btn">Shop Now</button>
+
+                <button class="pool-btn">Shop Now</button>
             </div>
 
             <div class="pool-right">
-                <!-- <div class="pool-images">
-                    <div class="image-large">
-                        <img src="/assets/images/image 2.png" alt="White inflatable castle">
-                    </div>
-                    <div class="image-small">
-                        <img src="/assets/images/family floats 1.png" alt="Flamingo float">
-                    </div>
-
-                </div> -->
                 <div class="pool-images">
-                    <div class="image-large">
+
+                    <div class="pool-image-large">
                         <img src="/assets/images/image 2.png" alt="White inflatable castle">
-
-
                     </div>
 
-                    <div class="image-small">
+                    <div class="pool-image-small">
                         <img src="/assets/images/family floats 1.png" alt="Flamingo float">
-
                     </div>
 
-                    <img src="/assets/svgs/duck2.svg" class="icon-swan" alt="Swan" width="150">
-                    <img src="/assets/svgs/triad2.svg" class="icon-spark" alt="Triad">
-                    <img src="/assets/svgs/ball.svg" class="icon-ball" alt="Beach Ball">
+                    <img src="/assets/svgs/duck2.svg" class="pool-icon-swan" alt="Swan" >
+                    <img src="/assets/svgs/triad2.svg" class="pool-icon-spark" alt="Triad">
+                    <img src="/assets/svgs/ball.svg" class="pool-icon-ball" alt="Beach Ball">
 
                 </div>
             </div>
 
-
-        </div>
         </div>
     </section>
 
+    <section class="articles-section-container">
+        <div class="articles-child-container">
+            <div class="articles-header">
+                <h3 class="articles-title">Pool Float Articles</h3>
+            </div>
 
+            <div class="articles-grid">
 
-    <section class="articles-section">
-        <div class="a-container">
-            <h3 class="section-title">Pool Float Articles</h3>
-
-            <div class="articles-container">
-
-                <!-- Card 1 -->
-                <div class="article-item">
-                    <div class="article-card">
+                <div class="article-card">
+                    <div class="article-card-image">
                         <img src="/assets/images/article1.png" alt="Pool Float">
                     </div>
-                    <div class="article-text">
-                        <span class="author">Admin</span>
-                        <h3 class="article-title">How long do pool floats last?</h3>
+                    <div class="article-card-text">
+                        <span class="article-author">Admin</span>
+                        <h3 class="article-card-title">How long do pool floats last?</h3>
                     </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="article-item">
-                    <div class="article-card">
+                <div class="article-card">
+                    <div class="article-card-image">
                         <img src="/assets/images/article2.png" alt="Chlorine Floater">
                     </div>
-                    <div class="article-text">
-                        <span class="author">Admin</span>
-                        <h3 class="article-title">Can you use a chlorine floater in a hot tub?</h3>
+                    <div class="article-card-text">
+                        <span class="article-author">Admin</span>
+                        <h3 class="article-card-title">Can you use a chlorine floater in a hot tub?</h3>
                     </div>
                 </div>
 
-                <!-- Card 3 -->
-                <div class="article-item">
-                    <div class="article-card">
+                <div class="article-card">
+                    <div class="article-card-image">
                         <img src="/assets/images/article3.png" alt="Paper Boat">
                     </div>
-                    <div class="article-text">
-                        <span class="author">Admin</span>
-                        <h3 class="article-title">How to make a boat that floats and holds weight [school project idea]
+                    <div class="article-card-text">
+                        <span class="article-author">Admin</span>
+                        <h3 class="article-card-title">How to make a boat that floats and holds weight [school project
+                            idea]
                         </h3>
                     </div>
                 </div>
@@ -622,92 +557,62 @@
         </div>
     </section>
 
+    <section class="newsletter-section-container">
 
-
-
-
-
-
-    <section class="newsletter-section">
-
-        <div class="wave-shape">
-            <img src="/assets/images/Shape.png" alt="blue wave shape">
+        <div class="newsletter-shape">
+            <img src="/assets/images/Shape.png" alt="blue wave shape" class="newsletter-shape-img">
         </div>
 
         <div class="newsletter-box">
-            <h3>Subscribe Newsletters</h3>
+            <h3 class="newsletter-box-title">Subscribe Newsletters</h3>
 
-            <!-- <div class="newsletter-input-box">
-            <input type="email" placeholder="Enter your email">
-            <button>Subscribe Now</button>
-        </div>
-    </div> -->
-            <div class="newsletter-input-box">
-                <input type="email" placeholder="Enter your email">
-                <button class="inside-btn">Subscribe Now</button>
+            <div class="newsletter-box-input">
+                <div>
+                    <input type="email" placeholder="Enter your email" class="newsletter-box-input-field">
+                </div>
+
+                <div>
+                    <button class="newsletter-box-input-button">Subscribe Now</button>
+                </div>
             </div>
-
 
     </section>
 
+    <footer class="footer-section-container">
 
-
-
-
-
-
-    <footer class="footer">
-
-
-
-
-
-        <div class="footer-top">
-            <ul class="footer-links">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact Us</a></li>
+        <div class="footer-top-container">
+            <ul class="footer-top-links">
+                <li class="footer-top-links-item"><a href="#">About us</a></li>
+                <li class="footer-top-links-item"><a href="#">Blogs</a></li>
+                <li class="footer-top-links-item"><a href="#">FAQ</a></li>
+                <li class="footer-top-links-item"><a href="#">Contact Us</a></li>
             </ul>
 
-            <div class="footer-social">
-                <img src="/assets/svgs/facebook-black.svg" alt="facebook">
-                <img src="/assets/svgs/Twitter.svg" alt="Twitter">
-                <img src="/assets/svgs/Vimeo.svg" alt="Vimeo">
-                <img src="/assets/svgs/Youtube.svg" alt="Youtube">
+            <div class="footer-top-social">
+                <img class="footer-top-social-icon" src="/assets/svgs/facebook-black.svg" alt="facebook">
+                <img class="footer-top-social-icon" src="/assets/svgs/Twitter.svg" alt="Twitter">
+                <img class="footer-top-social-icon" src="/assets/svgs/Vimeo.svg" alt="Vimeo">
+                <img class="footer-top-social-icon" src="/assets/svgs/Youtube.svg" alt="Youtube">
             </div>
         </div>
 
-        <hr class="footer-line" />
+        <hr class="footer-divider" />
 
+        <div class="footer-bottom-container">
+            <p class="footer-bottom-copy">Copyright © 2023 Pool Float Lounger . All rights reserved</p>
 
-
-        <div class="footer-bottom">
-            <p class="copy">Copyright © 2023 Pool Float Lounger . All rights reserved</p>
-
-            <div class="footer-mid">
-                <img class="footer-logo" src="/assets/svgs/Frame 3.svg" alt="Pool Float Lounger">
+            <div class="footer-bottom-brand">
+                <img class="footer-bottom-brand-logo" src="/assets/svgs/Frame 3.svg" alt="Pool Float Lounger">
             </div>
 
             <ul class="footer-bottom-links">
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Track Order</a></li>
+                <li class="footer-bottom-links-item"><a href="#">Terms of Service</a></li>
+                <li class="footer-bottom-links-item"><a href="#">Privacy Policy</a></li>
+                <li class="footer-bottom-links-item"><a href="#">Track Order</a></li>
             </ul>
         </div>
 
     </footer>
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 
