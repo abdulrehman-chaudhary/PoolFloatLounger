@@ -338,8 +338,7 @@
         right: -16px;
     }
 
-        .hero-btn
-    {
+    .hero-btn {
         padding-top: 20px;
     }
 }
@@ -457,8 +456,7 @@
 
     }
 
-    .hero-btn
-    {
+    .hero-btn {
         padding-top: 20px;
     }
 
@@ -593,8 +591,7 @@
         display: none;
     }
 
-        .hero-btn
-    {
+    .hero-btn {
         padding-top: 25px;
     }
 
@@ -766,6 +763,9 @@
     padding: 8px 10px;
     gap: 20px;
     width: 441.8px;
+
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .products-tabs-button {
@@ -789,8 +789,11 @@
 }
 
 @media (max-width: 500px) {
+
     .products-tabs {
-        width: auto;
+        width: 91%;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 
     .products-tabs-button {
@@ -911,13 +914,11 @@
         padding-top: 70px;
     }
 
-    .products-header-main-title
-    {
+    .products-header-main-title {
         font-size: 26px;
     }
 
-    .products-header-title
-    {
+    .products-header-title {
         font-size: 20px;
     }
 }
@@ -1221,12 +1222,11 @@
         width: 95%;
     }
 
-    .promo-section-container
-    {
+    .promo-section-container {
         padding-top: 80px;
     }
 
-    
+
     .promo-btn {
         padding: 12px 26px;
         font-size: 14px;
@@ -1358,6 +1358,11 @@
     }
 
     .features-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .features-text4 {
         font-size: 16px;
         line-height: 22px;
     }
@@ -1624,6 +1629,7 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .trustpilot-section-container {
         padding: 50px 0;
+        padding-top: 10px;
     }
 
     .trustpilot-child-container {
@@ -1759,6 +1765,11 @@
     .article-card-title {
         font-size: 20px;
         line-height: 28px;
+    }
+
+    .articles-section-container {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 }
 
@@ -2250,7 +2261,8 @@
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    border: 1px solid #D9D9D9;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
 }
 
 .newsletter-box-title {
@@ -2312,7 +2324,7 @@
     }
 
     .newsletter-box-input {
-        width: 360px;
+        width: 460px;
     }
 
     .newsletter-box-input-field {
@@ -2321,7 +2333,7 @@
     }
 
     .newsletter-box-input-button {
-        padding: 11px 20px;
+        padding: 16px 20px;
         font-size: 13px;
     }
 
@@ -2339,14 +2351,14 @@
     }
 
     .newsletter-section-container {
-        max-height: 310px;
+        max-height: 300px;
     }
 
     .newsletter-box {
         width: 95%;
         flex-direction: column;
         text-align: center;
-        padding: 40px 35px;
+        padding: 30px 35px;
         gap: 22px;
         top: -180px;
     }
@@ -2358,7 +2370,7 @@
 
     .newsletter-box-input {
         width: 100%;
-        max-width: 420px;
+        max-width: 480px;
     }
 
     .newsletter-box-input-field {
@@ -2368,8 +2380,8 @@
     }
 
     .newsletter-box-input-button {
-        padding: 16px 22px;
-        font-size: 13px;
+        padding: 16px 15px;
+        font-size: 12px;
         right: 8px;
     }
 
@@ -2387,13 +2399,13 @@
     }
 
     .newsletter-section-container {
-        max-height: 280px;
+        max-height: 260px;
     }
 
     .newsletter-box {
         flex-direction: column;
         text-align: center;
-        padding: 35px 35px;
+        padding: 28px 35px;
         width: 90%;
         gap: 22px;
         top: -180px;
@@ -2423,8 +2435,8 @@
     }
 
     .newsletter-box-input-button {
-        padding: 14px 14px;
-        font-size: 11px;
+        padding: 14px 9px;
+        font-size: 10px;
         right: 8px;
     }
 }
@@ -2436,7 +2448,7 @@
     }
 
     .newsletter-section-container {
-        max-height: 240px;
+        max-height: 220px;
     }
 
     .newsletter-shape-img {
@@ -2448,7 +2460,7 @@
     .newsletter-box {
         flex-direction: column;
         text-align: center;
-        padding: 30px 25px;
+        padding: 20px 25px;
         width: 90%;
         gap: 18px;
         top: -160px;
@@ -2473,8 +2485,8 @@
     }
 
     .newsletter-box-input-button {
-        padding: 12px 13px;
-        font-size: 11px;
+        padding: 12px 5px;
+        font-size: 9px;
         right: 6px;
     }
 }
